@@ -1,0 +1,13 @@
+html {
+  html {
+  font-size: 1.4rem;
+  font-family: serif;
+  line-height: 1.5;
+
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
