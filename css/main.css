@@ -1,5 +1,6 @@
 html {
   html {
+    color: #000;
   font-size: 1.4rem;
   font-family: serif;
   line-height: 1.5;
@@ -10,4 +11,91 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
   }
+}
+
+body {
+  margin: 1em;
+  background-color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+section {
+  border: solid 3px #6f00e7;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+}
+
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+dt {
+  font-family: Oswald, sans-sans-serif;
+  color: #6f00e7;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+}
+
+dd {
+  font-family: Karma, serif;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 0;
+}
+
+.share {
+  display: none;
+}
+
+.favourite {
+  display: none;
+}
+
+.add {
+  display: flex;
+  flex-grow: 2;
+  background-color: #6f00e7;
+  margin: 1em;
+  margin-left: 0;
+  margin-right: 9em;
+  color: #fff;
+  border-radius: 3em;
+  padding-left: .5em;
+  font-family: Oswald, sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 1em;
+}
+
+img {
+  padding: 1.5em;
+}
+
+.cart {
+  padding: 0;
+  padding-right: .5em
 }
